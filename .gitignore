@@ -3,3 +3,4 @@ cache/
 output/
 *.db
 deploy.py
+state_data.json

@@ -3,7 +3,10 @@
 from __future__ import unicode_literals
 import time
 
-from deploy import DEPLOY_COMMANDS
+try:
+    from deploy import DEPLOY_COMMANDS
+except:
+    print("==> External deploy.py missing. Read the documentation.")
 
 # !! This is the configuration of Nikola. !! #
 # !!  You should edit it to your liking.  !! #
