@@ -1,17 +1,21 @@
-.. title: Guida alla patente in Australia
-.. slug: guida-alla-patente-in-australia
-.. date: 2016-05-08 13:54:59 UTC+10:00
+<!-- 
+.. title: Patente in Australia: tutto quello che c'e' da sapere
+.. slug: patente-in-australia-tutto-quello-che-ce-da-sapere
+.. date: 2016-05-08 14:10:18 UTC+10:00
 .. tags: patente
 .. category: trasporti
 .. link: 
-.. description: La guida completa sulla patente in Australia
+.. description: Guida completa alla conversione e uso della patente in Australia
 .. type: text
 .. author: Andrea Mattia Marcelli
+-->
 
 
 Patenti e multe per espatriati e migranti. Quello che segue è una raccolta di domande riguardo alle regole per la circolazione in Australia di stranieri e residenti.
 
 ***Diclaimer:*** *Si prega di segnalare tempestivamente ai moderatori eventuali variazioni nelle informazioni riportate. Le informazioni qui riportate sono fornite solo allo scopo di illustrare il tipo di ricerca che l'utente dovrebbe svolgere in modo da aggiornarsi sulla normativa vigente: non sono in alcun modo da ritenersi sostitutive delle fonti originali governative.*
+
+<!-- TEASER_END: Leggi il resto dell'articolo -->
 
 ***1. Quali sono le norme generali per l'uso di patenti straniere in Australia?***
 
