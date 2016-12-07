@@ -8,9 +8,11 @@
 .. description: 
 .. type: text
 -->
+
 ## Benvenuto su AUSTRALIA FACILE! 
 
-NON ringraziere per l'accettata iscrizione. Davvero, non e' necessario.
+.. class:: col-md-6
+    NON ringraziere per l'accettata iscrizione. Davvero, non e' necessario.
 
 Se vuoi fare annunci o pubblicare il tuo ultimo post, fallo a questo [link](https://www.facebook.com/groups/australia.facile/permalink/688550797919343/)
 
@@ -39,6 +41,7 @@ In ogni caso, per gli utenti desktop, è sempre meglio effettuare una RICERCA ne
 
 Per gli argomenti fuori tema (OFF TOPIC), scrivi qui: [link](https://www.facebook.com/groups/australia.facile/permalink/688550797919343/)
 
+.. class:: col-md-6
 Lista degli argomenti trattati:
 
 Il 90% dei nuovi utenti vuole sapere delle FARM [link](https://www.facebook.com/groups/australia.facile/permalink/699287203512369/)
