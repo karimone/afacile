@@ -1,0 +1,1 @@
+Dal sito del Fair Work [P.A.C.T.](https://calculate.fairwork.gov.au/) un utile Tools  per controllare la vostra paga, calcolare le ferie e le assenze per malattia di cui avete diritto, quanto dovete dare di preavviso prima di lasciare un lavoro, calcolare i vostri diritti in caso di shift work

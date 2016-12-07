@@ -1,14 +1,3 @@
-<!-- 
-.. title: Quanto devo guadagnare in Australia?
-.. slug: quanto-devo-guadagnare-in-australia
-.. date: 2016-05-08 20:03:23 UTC+10:00
-.. tags: stipendio
-.. category: lavoro
-.. link: 
-.. description: Indicazioni su quanto e' necessario guadagnare in Australia per vivere decentemente
-.. type: text
--->
-
 La risposta, chiaramente, non è semplice né univoca.
 
 Assumiamo però in linea generale che si parli di un single, con visto di lavoro temporaneo tipo 457 e che quindi non gode di sanità pubblica né di sussidi di disoccupazione.
