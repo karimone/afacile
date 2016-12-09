@@ -1,0 +1,11 @@
+/* custom css sytlesheet */
+body {padding-top:70px;}
+.data_post{color:grey;}
+.autore_post{}
+.intro_post{font-weight: bold;}
+.box_post{
+	background-color: antiquewhite;
+	margin:10px;
+	padding:10px;
+}
+.text_post{}
