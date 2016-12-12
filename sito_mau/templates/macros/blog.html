@@ -21,5 +21,12 @@
    <span class="intro_post">
    {{post.abstract}}</span>
   {{ post.body }}
+
+ {% if post.external_link!="" %}<!--if there is external link, i set the label -->
+ <a href="https://{{ post.external_link }}" target="_blank">Leggi la discussione su Facebook</a>
+{% else %}<!--if not, i set the link to the article itself -->
+ <a href="{{ post|url }}">Leggi l'articolo</a>
+
+    {% endif %}
   </div>
 {% endmacro %}

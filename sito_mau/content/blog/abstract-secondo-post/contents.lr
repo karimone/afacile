@@ -2,12 +2,14 @@ title: secondo post
 ---
 author: mau
 ---
-body: testo secondo post. blabla blalblbllaalalaalblabla blalblbllaalalaalblabla blalblbllaalalaalblabla blalblbllaalalaalblabla blalblbllaalalaalblabla blalblbllaalalaalblabla blalblbllaalalaalblabla blalblbllaalalaalblabla blalblbllaalalaalblabla blalblbllaalalaalblabla blalblbllaalalaalblabla blalblbllaalalaalblabla blalblbllaalalaalblabla blalblbllaalalaalblabla blalblbllaalalaalblabla blalblbllaalalaalblabla blalblbllaalalaalblabla blalblbllaalalaalblabla blalblbllaalalaalblabla blalblbllaalalaal
+body: 
 ---
 pub_date: 2016-06-12
 ---
-tags: #australia
+tags: #australia #pizza #renzi
 ---
-abstract:
-
-abstract 
+abstract: questa è la discussione su facebbok a proposito di australia, pizza e renzi
+---
+description_link: leggi la discussione su facebook
+---
+external_link: www.facebook.com
