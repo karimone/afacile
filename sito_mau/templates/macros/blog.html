@@ -1,6 +1,7 @@
   {% macro render_blog_post(post, from_index=false) %}
     <div class="box_post">
-    {{ post.pub_date }}
+   <!-- {{ post.pub_date }}-->
+   <p>Published: {{ post.pub_date.strftime('%d/%m/%Y') }}</p>
 
     {% if from_index %} <!-- index means blog repository page -->
       <h2><a href="{{ post|url }}">{{ post.title }}</a></h2>
