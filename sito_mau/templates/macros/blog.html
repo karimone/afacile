@@ -1,32 +1,37 @@
-{% macro render_blog_post(post, from_index=false) %}
-  <div class="box_post">
-  {{ post.pub_date }}
+  {% macro render_blog_post(post, from_index=false) %}
+    <div class="box_post">
+    {{ post.pub_date }}
 
-  {% if from_index %}
-    <h2><a href="{{ post|url }}">{{ post.title }}</a></h2>
-  {% else %}
-    <h2>{{ post.title }}</h2>
-  {% endif %}
-  <p class="meta">
-    written by
-    {% if post.twitter_handle %}
-      <a href="https://twitter.com/{{ post.twitter_handle
-        }}">{{ post.author or post.twitter_handle }}</a>
+    {% if from_index %} <!-- index means blog repository page -->
+      <h2><a href="{{ post|url }}">{{ post.title }}</a></h2>
     {% else %}
-      {{ post.author }}
+      <h2>{{ post.title }}</h2>
     {% endif %}
-   <!-- on {{ post.pub_date }}-->
-  </p>
-   {{ post.tags }}
-   <span class="intro_post">
-   {{post.abstract}}</span>
+    <p class="meta">
+      written by
+      {% if post.twitter_handle %}
+        <a href="https://twitter.com/{{ post.twitter_handle
+          }}">{{ post.author or post.twitter_handle }}</a>
+      {% else %}
+        {{ post.author }}
+      {% endif %}
+     <!-- on {{ post.pub_date }}-->
+    </p>
+     {{ post.tags }}
+     <span class="intro_post">
+     {{post.abstract}}</span>
+  
+
+
+   {% if from_index %} <!-- if we are in the blog repository index need links-->
+      {% if post.external_link!="" %}<!--if there is external link, i set the label -->
+          <a href="https://{{ post.external_link }}" target="_blank">Leggi la discussione su Facebook</a>
+      {% else %}<!--if not, i set the link to the article itself -->
+          <a href="{{ post|url }}">Leggi l'articolo</a>
+      {% endif %}
+     {% else %} 
   {{ post.body }}
 
- {% if post.external_link!="" %}<!--if there is external link, i set the label -->
- <a href="https://{{ post.external_link }}" target="_blank">Leggi la discussione su Facebook</a>
-{% else %}<!--if not, i set the link to the article itself -->
- <a href="{{ post|url }}">Leggi l'articolo</a>
-
     {% endif %}
-  </div>
-{% endmacro %}
+    </div>
+  {% endmacro %}
